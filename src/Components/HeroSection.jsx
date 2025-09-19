@@ -12,10 +12,10 @@ function HeroSection() {
     return (
         <div className='flex items-center justify-around p-10'>
             <div className='flex flex-col gap-10'>
-                <Button icon={Science}></Button>
-                <Button icon={Technology}></Button>
-                <Button icon={Engineering}></Button>
-                <Button icon={Mathematics}></Button>
+                <Button name="Science" icon={Science}></Button>
+                <Button name="Technology" icon={Technology}></Button>
+                <Button name="Engineering" icon={Engineering}></Button>
+                <Button name="Mathematics" icon={Mathematics}></Button>
             </div>
             <div className="relative w-[400px] h-[600px] items-center justify-center">
                 <img src={Avatar} alt="Student" className="w-[500px] h-[500px] object-contain relative z-10" />

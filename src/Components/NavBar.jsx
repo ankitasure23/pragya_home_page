@@ -21,14 +21,14 @@ function NavBar() {
                         <h2 className='font-bold text-5xl' style={{ color: '#2C1F4A' }}>Gurukul</h2>
                     </div>
                     <div className='flex gap-6'>
-                        <Button icon={Home}></Button>
-                        <Button icon={Lesson}></Button>
-                        <Button icon={Quiz}></Button>
-                        <Button icon={Dashboard}></Button>
-                        <Button icon={Settings}></Button>
-                        <Button dropDownMenu={lang} icon={Language}></Button>
-                        <Button icon={Login}></Button>
-                        <Button icon={Signup}></Button>
+                        <Button name="Home" icon={Home}></Button>
+                        <Button name="Lesson" icon={Lesson}></Button>
+                        <Button name="Quiz" icon={Quiz}></Button>
+                        <Button name="Dashboard" icon={Dashboard}></Button>
+                        <Button name="Settings" icon={Settings}></Button>
+                        <Button name="Language" dropDownMenu={lang} icon={Language}></Button>
+                        <Button name="Login" icon={Login}></Button>
+                        <Button name="Signup" icon={Signup}></Button>
                     </div>
                 </div>
                 
